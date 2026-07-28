@@ -12,7 +12,7 @@
   "fact_location": "Rīga, strādāju arī attālināti",
   "fact_languages": "LV / RU / EN",
   "fact_format": "Projektu darbs uz līguma (SIA vai pašnodarbinātais)",
-  "fact_rate": "TODO: likme — piem. \"No 45 EUR/h\" vai \"No 350 EUR dienā\"",
+  "fact_rate": "No 16 EUR/h",
   "fact_availability": "Pieejams jauniem projektiem",
 
   "cta_mail": "Rakstīt e-pastu",
@@ -50,7 +50,7 @@
   "p2_problem": "Čeki no objektiem pazuda vai nonāca birojā ar nedēļas nokavēšanos, un birojam tie bija manuāli jāpārraksta uzskaitē.",
   "p2_built": "Mobilā aplikācija, kurā brigāde uz vietas ievada summu vai nofotografē čeku — arī bez interneta. Dati automātiski nonāk biroja uzskaitē, bez pārrakstīšanas.",
   "p2_result": "Aplēse: komandai ar 10 darbiniekiem tas ir ap 100 minūtēm dienā mazāk administratīvā darba. Šis ir aprēķins, nevis mērījums reālā ekspluatācijā.",
-  "p2_status": "TODO: kāds ir īstais statuss un tehnoloģija? Piem. \"Darbojas klienta komandā kopš 2025. gada\" vai \"Personīgais projekts, nav ieviests\" + Android / Flutter / React Native.",
+  "p2_status": "Android demo projekts, kas nodemonstrē klientam integrāciju ar CRM sistēmu.",
   "p2_tags": ["Mobilā aplikācija", "Darbojas bez interneta", "Čeku fotoattēli"],
 
   "p3_name": "Pierakstu automatizācija servisa uzņēmumam",
