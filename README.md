@@ -50,10 +50,14 @@ python3 -m http.server 8000
 
 ## Публикация на GitHub Pages
 
-Репозиторий: https://github.com/arthur-staseljun/cv (ветка `master`).
+Репозиторий: https://github.com/arthur-staseljun/curriculum-vitae (ветка `master`,
+переименован из `cv` — GitHub сам перенаправляет старые ссылки и `git push` на
+старый URL).
 
 1. Settings → Pages → Source: `Deploy from a branch`, ветка `master`, папка `/ (root)`.
-2. Через минуту страница открывается на https://arthur-staseljun.github.io/cv/
+2. Страница живёт на https://arthur-staseljun.github.io/curriculum-vitae/
+
+Pages уже включён и настроен именно так.
 
 **Не включай Pages, пока `check.py` не даст код 0** — иначе в интернет уедут
 незаполненные места вроде «TODO: ставка».
