@@ -45,13 +45,13 @@
   "p1_status": "Izstrādē. Tiek gatavota pirmā ieviešana klientam.",
   "p1_tags": ["Spring Boot", "PostgreSQL", "Docker Compose", "nginx", "Self-hosted"],
 
-  "p2_name": "Izdevumu uzskaites aplikācija būvniecības uzņēmumiem",
+  "p2_name": "Android demo — CRM sistēmas integrācija ar mobilo lietotni",
   "p2_role": "Viens izstrādātājs",
-  "p2_problem": "Čeki no objektiem pazuda vai nonāca birojā ar nedēļas nokavēšanos, un birojam tie bija manuāli jāpārraksta uzskaitē.",
-  "p2_built": "Mobilā aplikācija, kurā brigāde uz vietas ievada summu vai nofotografē čeku — arī bez interneta. Dati automātiski nonāk biroja uzskaitē, bez pārrakstīšanas.",
-  "p2_result": "Aplēse: komandai ar 10 darbiniekiem tas ir ap 100 minūtēm dienā mazāk administratīvā darba. Šis ir aprēķins, nevis mērījums reālā ekspluatācijā.",
+  "p2_problem": "Klienti jautāja, vai CRM sistēmu var izmantot arī no telefona, ne tikai no datora. Vajadzēja tehniski pierādīt, ka tas ir iespējams, pirms plānot pilnu izstrādi.",
+  "p2_built": "Android lietotne, kas pieslēdzas CRM sistēmas backend un API, un rāda, ka dati starp mobilo lietotni un galveno sistēmu var sinhronizēties reālā laikā.",
+  "p2_result": "Tehnisks pierādījums klientam, ka integrācija ir iespējama — nevis mērīts rezultāts no reālas ekspluatācijas. Lietotne netika nodota lietotājiem.",
   "p2_status": "Android demo projekts, kas nodemonstrē klientam integrāciju ar CRM sistēmu.",
-  "p2_tags": ["Mobilā aplikācija", "Darbojas bez interneta", "Čeku fotoattēli"],
+  "p2_tags": ["Android", "CRM integrācija", "API sinhronizācija", "Demo projekts"],
 
   "p3_name": "Pierakstu automatizācija servisa uzņēmumam",
   "p3_role": "Viens izstrādātājs",

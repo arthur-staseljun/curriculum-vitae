@@ -11,7 +11,9 @@
 ## Структура
 
 ```
-index.html        разметка, стили и логика (i18n + тема) — один файл
+index.html        разметка
+style.css         стили
+script.js         логика (i18n + тема)
 locales/lv.json   латышский (язык по умолчанию)
 locales/ru.json   русский
 locales/en.json   английский
@@ -28,8 +30,8 @@ grep -n "TODO:" locales/*.json
 Правится только JSON, HTML трогать не нужно. Ключи во всех трёх файлах
 одинаковые — если добавляешь ключ, добавь во все три.
 
-Отдельно, прямо в `index.html`, в объекте `CONTACT` (внизу, в `<script>`):
-телефон в двух видах — как показывать и как ссылку `tel:`.
+Отдельно, в `script.js`, в объекте `CONTACT`: телефон в двух видах —
+как показывать и как ссылку `tel:`.
 
 Проверить, что ничего не забыто и словари согласованы:
 
@@ -48,9 +50,9 @@ python3 -m http.server 8000
 
 ## Публикация на GitHub Pages
 
-Репозиторий: https://github.com/arthur-staseljun/cv (ветка `main`).
+Репозиторий: https://github.com/arthur-staseljun/cv (ветка `master`).
 
-1. Settings → Pages → Source: `Deploy from a branch`, ветка `main`, папка `/ (root)`.
+1. Settings → Pages → Source: `Deploy from a branch`, ветка `master`, папка `/ (root)`.
 2. Через минуту страница открывается на https://arthur-staseljun.github.io/cv/
 
 **Не включай Pages, пока `check.py` не даст код 0** — иначе в интернет уедут

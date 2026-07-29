@@ -45,13 +45,13 @@
   "p1_status": "In development. First client rollout is being prepared.",
   "p1_tags": ["Spring Boot", "PostgreSQL", "Docker Compose", "nginx", "Self-hosted"],
 
-  "p2_name": "Expense tracking app for construction companies",
+  "p2_name": "Android demo — CRM system integration with a mobile app",
   "p2_role": "Sole developer",
-  "p2_problem": "Receipts from sites went missing or reached the office a week late, and the office had to retype them into the books by hand.",
-  "p2_built": "A mobile app where the crew enters an amount or photographs a receipt on site — it works offline too. The data lands in the office ledger automatically, with no retyping.",
-  "p2_result": "Estimate: for a team of ten that is roughly 100 minutes a day less admin work. This is a calculation, not a measurement from live use.",
+  "p2_problem": "Clients asked whether a CRM system could be used from a phone, not just a desktop. It needed to be proven technically possible before planning a full build.",
+  "p2_built": "An Android app that connects to the CRM system's backend and API, showing that data can sync between the mobile app and the main system in real time.",
+  "p2_result": "A technical proof to the client that the integration is possible — not a measured outcome from live use. The app was never handed to end users.",
   "p2_status": "An Android demo project that demonstrates to the client integration with CRM system.",
-  "p2_tags": ["Mobile app", "Works offline", "Receipt photos"],
+  "p2_tags": ["Android", "CRM integration", "API sync", "Demo project"],
 
   "p3_name": "Booking automation for a service business",
   "p3_role": "Sole developer",
