@@ -99,8 +99,8 @@
   /* theme */
   const root = document.documentElement;
   const tBtn = document.getElementById("theme-toggle");
-  const defaultTheme = "dark";
-  let savedTheme = defaultTheme ?? "dark";
+  const storedTheme = typeof Storage === "undefined" ? null : localStorage.getItem("cv-theme");
+  let savedTheme = storedTheme || "dark";
 
   function setTheme(t) {
     root.dataset.theme = t;
