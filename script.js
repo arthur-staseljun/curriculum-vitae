@@ -113,6 +113,34 @@
   tBtn.addEventListener("click", function () {
     setTheme(root.dataset.theme === "light" ? "dark" : "light");
   });
+
+  /* screenshot lightbox */
+  const lightbox = document.createElement("div");
+  lightbox.className = "lightbox";
+  const lightboxImg = document.createElement("img");
+  lightbox.appendChild(lightboxImg);
+  document.body.appendChild(lightbox);
+
+  function closeLightbox() {
+    lightbox.classList.remove("open");
+    lightboxImg.src = "";
+  }
+
+  document.addEventListener("click", function (e) {
+    const thumb = e.target.closest(".shot-thumb");
+    if (thumb) {
+      lightboxImg.src = thumb.src;
+      lightboxImg.alt = thumb.alt;
+      lightbox.classList.add("open");
+      return;
+    }
+    if (e.target.closest(".lightbox")) {
+      closeLightbox();
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeLightbox();
+  });
 })();
 
 

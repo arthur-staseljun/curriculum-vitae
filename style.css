@@ -126,6 +126,16 @@ h2 { font-size: clamp(1.25rem, 2.6vw, 1.65rem); margin: 0 0 6px; letter-spacing:
 .row dt { color: var(--muted); font-size: .84rem; font-weight: 600; margin: 0; }
 .row dd { margin: 0; font-size: .95rem; }
 .project-tags { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+.shot-gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.shot-thumb { height: 120px; width: auto; border-radius: 6px; border: 1px solid var(--line); cursor: zoom-in; }
+
+.lightbox {
+  display: none; position: fixed; inset: 0; z-index: 100;
+  background: rgba(0, 0, 0, .82); padding: 5vh 5vw;
+  align-items: center; justify-content: center; cursor: zoom-out;
+}
+.lightbox.open { display: flex; }
+.lightbox img { max-width: 100%; max-height: 90vh; border-radius: 8px; }
 
 /* experience */
 .job { position: relative; padding-left: 22px; padding-bottom: 22px; border-left: 1px solid var(--line); }
