@@ -93,7 +93,7 @@
     });
   });
 
-  let stored = typeof Storage !== "undefined" ? localStorage.getItem("cv-lang") : null;
+  let stored = typeof Storage === "undefined" ? null : localStorage.getItem("cv-lang");
   setLang(stored || FALLBACK);
 
   /* theme */
