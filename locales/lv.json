@@ -60,6 +60,14 @@
   "p3_status": "Prototips. Izstrādāts kā priekšlikums servisa uzņēmumam, darījums nenotika.",
   "p3_tags": ["Prototips", "Pierakstu un noslodzes plānošana", "CSV imports/eksports"],
 
+  "p4_name": "Interaktīva taustes karte neredzīgajiem (SocIntegra)",
+  "p4_role": "Viens izstrādātājs — pēc SocIntegra pasūtījuma",
+  "p4_problem": "Neredzīgi un vājredzīgi apmeklētāji publiskās telpās nevar saprast, ko nozīmē taustes karte uz virsmas — pati uzlika neizrunā ielas vai ēkas nosaukumu zem pirkstiem.",
+  "p4_built": "Skārienekrāna kioska lietotne SocIntegra taustes karšu projektam: dubultskāriens kartes zonā izrunā tās nosaukumu ar neironu balsīm, kas ir ģenerētas ar Azure AI Speech, ar LV/EN valodas pārslēgšanu un uz ārējiem datiem balstītu arhitektūru — kartes attēli, zonu nosaukumi, koordinātas un audio atrodas atsevišķos failos, jaunu karti var pievienot bez koda izmaiņām.",
+  "p4_result": "Strādājošs pilna mijiedarbības cikla demo — pieskāriens, izrunāšana, valodas maiņa — izvietots klienta izvērtēšanai. Līdz ieviešanai ekspluatācijā vēl nav nonākts.",
+  "p4_status": "Demo izvietots, gaidām klienta lēmumu.",
+  "p4_tags": ["HTML5", "Vanilla JS", "Azure AI Speech (TTS)", "Pieejamība (a11y)", "LV/EN lokalizācija"],
+
   "exp_title": "Darba pieredze",
   "exp_sub": "Kur un ar ko esmu strādājis pēdējos 16 gadus.",
   "exp1_when": "2022 — 2026",

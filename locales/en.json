@@ -60,6 +60,14 @@
   "p3_status": "Prototype. Built as a proposal for a service business; the deal did not go through.",
   "p3_tags": ["Prototype", "Booking and capacity planning", "CSV import/export"],
 
+  "p4_name": "Interactive tactile map for the visually impaired (SocIntegra)",
+  "p4_role": "Sole developer — commissioned by SocIntegra",
+  "p4_problem": "Blind and visually impaired visitors to public spaces have no way to know what a tactile map overlay represents — touch alone doesn't tell them the name of the street or building under their fingers.",
+  "p4_built": "A touchscreen kiosk web app for SocIntegra's tactile map program: double-tap on a map region speaks its name aloud, using neural voices generated with Azure AI Speech, with LV/EN language switching and a data-driven setup — map images, region names, coordinates and audio all live in external files, so a new map can be added without touching the code.",
+  "p4_result": "A working demo of the full interaction loop — touch, speech, language switch — deployed for the client to evaluate. No production rollout yet.",
+  "p4_status": "Demo deployed, awaiting the client's decision.",
+  "p4_tags": ["HTML5", "Vanilla JS", "Azure AI Speech (TTS)", "Accessibility", "LV/EN localization"],
+
   "exp_title": "Work experience",
   "exp_sub": "Where and on what I have worked over the past 16 years.",
   "exp1_when": "2022 — 2026",
