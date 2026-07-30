@@ -127,7 +127,7 @@ h2 { font-size: clamp(1.25rem, 2.6vw, 1.65rem); margin: 0 0 6px; letter-spacing:
 .row dd { margin: 0; font-size: .95rem; }
 .project-tags { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
 .shot-gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
-.shot-thumb { height: 120px; width: auto; border-radius: 6px; border: 1px solid var(--line); cursor: zoom-in; }
+.shot-thumb { height: 100px; width: auto; border-radius: 6px; border: 1px solid var(--line); cursor: zoom-in; }
 
 .lightbox {
   display: none; position: fixed; inset: 0; z-index: 100;
