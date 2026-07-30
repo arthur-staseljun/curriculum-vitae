@@ -67,7 +67,7 @@
   }
 
   function setLang(lang) {
-    let activeLang = FILES[lang] ?? FALLBACK;
+    let activeLang = FILES[lang] ? lang : FALLBACK;
     load(activeLang)
       .catch(function () {
         if (activeLang === FALLBACK) {
