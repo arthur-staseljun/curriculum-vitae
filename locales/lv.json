@@ -24,12 +24,12 @@
   "stack_g2_title": "Dati",
   "stack_g2_items": ["PostgreSQL", "Datu straumēšana", "Augstas slodzes izkliedētas sistēmas", "XML", "EDIFACT"],
   "stack_g3_title": "Infrastruktūra",
-  "stack_g3_items": ["Docker", "Kubernetes", "AWS", "CI/CD", "nginx"],
+  "stack_g3_items": ["AWS", "Docker", "Kubernetes", "CI/CD", "nginx"],
   "stack_g4_title": "Integrācijas un vadība",
   "stack_g4_items": ["Apigee", "OAuth2 / JWT", "Identity & Access Management", "Sistēmu projektēšana", "Komandas vadība", "Prasību analīze"],
 
   "projects_title": "Patstāvīgie projekti",
-  "projects_sub": "Sistēmas, ko esmu uzbūvējis viens pats no idejas līdz darbojošai programmatūrai. Pie katras — godīgs statuss, bez izskaistināšanas.",
+  "projects_sub": "Programmas un sistēmas, ko esmu izveidojis no idejas līdz ieviešanai. Katrai — statuss uz šo brīdi.",
 
   "label_problem": "Problēma",
   "label_built": "Ko uzbūvēju",
@@ -82,6 +82,9 @@
   "exp3_role": "Document processing specialist",
   "exp3_company": "Itella / OpusCapita",
   "exp3_text": "Finanšu sistēmu izstrāde un datu apstrāde (XML, EDIFACT). Automatizācijas skripti un backend rīki. Grafiskās attēlošanas sistēmas projektēšana (gmc print nett).",
+  "exp4_when": "2026 — Pašlaik",
+  "exp4_role": "Pašnodarbinātība",
+  "exp4_company": "Patstāvīgie projekti",
 
   "edu_title": "Izglītība un sertifikāti",
   "edu_school_title": "Izglītība",

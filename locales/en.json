@@ -24,12 +24,12 @@
   "stack_g2_title": "Data",
   "stack_g2_items": ["PostgreSQL", "Data streaming", "High-load distributed systems", "XML", "EDIFACT"],
   "stack_g3_title": "Infrastructure",
-  "stack_g3_items": ["Docker", "Kubernetes", "AWS", "CI/CD", "nginx"],
+  "stack_g3_items": ["AWS", "Docker", "Kubernetes", "CI/CD", "nginx"],
   "stack_g4_title": "Integration and leadership",
   "stack_g4_items": ["Apigee", "OAuth2 / JWT", "Identity & Access Management", "System design", "Team leading", "Requirements analysis"],
 
   "projects_title": "Independent projects",
-  "projects_sub": "Systems I built on my own, from the idea to working software. Each one carries an honest status, with nothing dressed up.",
+  "projects_sub": "Programs and systems I've built from idea to deployment. Each one has its current status.",
 
   "label_problem": "Problem",
   "label_built": "What I built",
@@ -82,6 +82,9 @@
   "exp3_role": "Document processing specialist",
   "exp3_company": "Itella / OpusCapita",
   "exp3_text": "Financial systems development and data processing (XML, EDIFACT). Automation scripts and backend tooling. Design of a graphical representation system (gmc print nett).",
+  "exp4_when": "2026 — present",
+  "exp4_role": "Self-employed",
+  "exp4_company": "Independent projects",
 
   "edu_title": "Education and certification",
   "edu_school_title": "Education",

@@ -24,12 +24,12 @@
   "stack_g2_title": "Данные",
   "stack_g2_items": ["PostgreSQL", "Потоковая обработка данных", "Высоконагруженные распределённые системы", "XML", "EDIFACT"],
   "stack_g3_title": "Инфраструктура",
-  "stack_g3_items": ["Docker", "Kubernetes", "AWS", "CI/CD", "nginx"],
+  "stack_g3_items": ["AWS", "Docker", "Kubernetes", "CI/CD", "nginx"],
   "stack_g4_title": "Интеграции и руководство",
   "stack_g4_items": ["Apigee", "OAuth2 / JWT", "Identity & Access Management", "Проектирование систем", "Руководство командой", "Анализ требований"],
 
   "projects_title": "Самостоятельные проекты",
-  "projects_sub": "Системы, которые я построил один, от идеи до работающей программы. У каждой — честный статус, без прикрас.",
+  "projects_sub": "Программы и системы, которые я построил от идеи до внедрения. У каждой — статус на данный момент.",
 
   "label_problem": "Проблема",
   "label_built": "Что сделал",
@@ -82,6 +82,9 @@
   "exp3_role": "Document processing specialist",
   "exp3_company": "Itella / OpusCapita",
   "exp3_text": "Разработка финансовых систем и обработка данных (XML, EDIFACT). Скрипты автоматизации и бэкенд-инструменты. Проектирование системы графического представления (gmc print nett).",
+  "exp4_when": "2026 — по сегодняшний день",
+  "exp4_role": "Самозанятость",
+  "exp4_company": "Независимые проекты",
 
   "edu_title": "Образование и сертификаты",
   "edu_school_title": "Образование",
